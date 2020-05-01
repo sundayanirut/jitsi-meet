@@ -1,5 +1,5 @@
 sudo: required
 services:
-        - docker
-before_unstall:
+        - docker-compose
+script:
         - docker-compose up -d
