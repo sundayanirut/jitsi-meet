@@ -1,5 +1,0 @@
-sudo: required
-services:
-        - docker-compose
-script:
-        - docker-compose up -d
